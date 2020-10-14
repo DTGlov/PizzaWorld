@@ -1,0 +1,76 @@
+body {
+    font-family: "Arvo", serif;
+}
+
+#head-img {
+    background: url("./img/pizza-b.jpg");
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
+
+.first {
+    min-height: 80vh;
+}
+
+.title-underline {
+    width: 200px;
+    height: 10px;
+    margin: 0 auto;
+}
+
+.pworld {
+    animation: bounceInLeft;
+    animation-duration: 2s;
+}
+
+.bg-menu {
+    background: #7ebdc2;
+    /* background: #452103 */
+}
+
+.bg-piz {
+    background: #231f20;
+}
+
+.shop-pic {
+    background: url("./img/pizza\ shop.jpg");
+}
+
+.findcolor {
+    /* background: #99edcc; */
+    /* background: #231f20; */
+    background: #cb958e;
+}
+
+.shop-img {
+    background: url("./img/pizza\ shop.jpg");
+    background-size: cover;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#footer {
+    background: #231f20;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000000;
+    top: 0;
+}
